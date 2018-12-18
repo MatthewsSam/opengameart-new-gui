@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/mr-pixel" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css"/>
+
+    <!-- OpenGameArt -->
+    <link rel="stylesheet" href="style2.css">
+
+
+
+    <title>Open Game Art</title>
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.0.1/js/jquery.terminal.min.js"></script>
+    -->
+
+
+<div class="navbar-dark navbar-oga navbar-expand-lg">
+  <nav class="navbar main-container-body">
+  <a class="navbar-brand oga-big-title" href="#">Open Game Art</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Browse</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Submit Art</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Collect</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Community</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FAQ</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</div>
+
+<div class="jumbotron main-container-body">
+  <h1 class="display-4 oga-jumbotron-title">Discover and share <span class="oga-highlight-opensource">Open Source</span> assets!</h1>
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <div class="lead oga-search-options">All | Pictures | Textures | 3D Artists | Sprites | Music | GFX | More</div>
+</div>
+
+
+<div class="card main-container-body">
+  <div class="card-header">
+    Featured Art
+  </div>
+  <div class="card-body">
+    <figure class="figure oga-feature-fig">
+    <img src="https://opengameart.org/sites/default/files/working-title1.png" 
+        class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+    <figcaption class="figure-caption"><h5 class="card-title">castle platformer by Jetrel <a class="oga-read-more" href="#">(download)</a></h5></figcaption>
+  </div>
+
+  <div class="card-body">
+    <figure class="figure">
+    <img src="https://opengameart.org/sites/default/files/working-title2.png" 
+        class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+    <figcaption class="figure-caption"><h5 class="card-title">castle platformer by Jetrel <a class="oga-read-more" href="#">(download)</a></h5></figcaption>
+  </div>
+</figure>
+
+</div>
+
+<div class="card main-container-body">
+  <div class="card-header">
+    Last Blog News
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">OGA3 front page layout feedback!</h5>
+    <img class="oga-avatar" src="https://www.gravatar.com/avatar/11000000000000000000000000000000?d=identicon&f=y" alt="..." class="img-thumbnail">
+    <p class="card-text">
+    The initial rough layout for the front page for the new OGA3 layout is viewable at http://199.180.155.219<br />
+Any feedback is appreciated.<br />
+Source code for the theme is located at https://github.com/OpenGameArt/OpenGameArt-OGA3-Theme any patches are welcome! <br />
+      <a class="oga-read-more" href="#">read more</a>
+    </p>
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title">OGA2 Site Source Code Released!</h5>
+    <img class="oga-avatar" src="https://www.gravatar.com/avatar/10000000000000000000000000000000?d=identicon&f=y" alt="..." class="img-thumbnail">
+    <p class="card-text">
+    The source code for the custom OGA2 modules, as well as the OGA2 theme and the new OGA3 site, are all now hosted on GitHub! <br />
+      <a class="oga-read-more" href="#">read more</a>
+    </p>
+  </div>
+</div>
+
+</body>
+
+</html>

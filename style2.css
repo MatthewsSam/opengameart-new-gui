@@ -1,0 +1,79 @@
+body {
+    /*font-family: 'VTFMisterPixelRegular';*/
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 20px;
+    background-color: #07172B;
+}
+
+.navbar-oga{
+    background-color: #217892;
+}
+
+.main-container-body{
+    width: 1200px;
+    margin: auto;
+}
+
+.oga-big-title{
+    font-size: 30px;
+}
+
+.oga-highlight-opensource{
+    color: #29CF8A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.oga-jumbotron-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.oga-search-options{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.jumbotron{
+    background: transparent;
+}
+
+.card{
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.card-header{
+    background-color: transparent;
+    border-color: #143350;
+    border-width: 0px;
+    border-style: solid;
+    border-bottom-width: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-text{
+    color: #CACACA;
+}
+
+.card-title{
+    font-size: 20px;
+    color: #31ACFF!important;
+    border-width: 0px;
+    /*background-color: rgba(0, 0, 0, 0.26);*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oga-read-more{
+    color: #D6890E;
+}
+
+.oga-avatar{
+    padding-bottom: 10px;
+}
