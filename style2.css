@@ -46,13 +46,20 @@ body {
     border-width: 0px;
 }
 
+.card-body{
+    background-color: rgba(6, 38, 48, 0.45);
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .card-header{
     background-color: transparent;
     border-color: #143350;
     border-width: 0px;
     border-style: solid;
     border-bottom-width: 5px;
-    color: white;
+    color: #31ACFF!important;
     text-align: center;
     font-size: 30px;
 }
@@ -63,11 +70,12 @@ body {
 
 .card-title{
     font-size: 20px;
-    color: #31ACFF!important;
+    color: #F2FAFF!important;
     border-width: 0px;
     /*background-color: rgba(0, 0, 0, 0.26);*/
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bold;
 }
 
 .oga-read-more{
@@ -76,4 +84,14 @@ body {
 
 .oga-avatar{
     padding-bottom: 10px;
+}
+
+.oga-main-title{
+    margin-top: 50px;
+}
+
+.oga-img {
+    width: 350px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: contain;
 }
